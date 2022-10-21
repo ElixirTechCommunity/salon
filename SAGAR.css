@@ -1,59 +1,35 @@
-body{
-    background-image: url('salonPic.jfif') ;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.symbol{
-    color: aliceblue;
-    padding: 35px;
-}
-a{
-    text-decoration: none;
-    color: aliceblue;
-}
-.nav{
-    color: aliceblue;
-    /* border: 2px solid black; */
-    box-sizing: border-box;
-    width: 25cm ;
-    margin: 1cm auto ;
-    position:sticky;
-    top:2px;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-.tags:hover{
-    color: rgb(217, 231, 243);
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SAGAR-sets moon on your styling</title>
+</head>
 
-.btn{
-    margin-left: 106px;
-    height: 0.8cm;
-    width: 5cm;
-    font-size: 16px ;
-    font-weight: 700;
-    background-color: rgb(109 146 61);
-    border: double rgb(47 63 29) 2px;
-    border-radius: 5px;
+<style>
 
-}
-.btn:hover{
-    background-color: rgb(140 173 97) ;
-}
-.title{
-    font-family: 'Lobster', cursive;
-    color: aliceblue;
-    font-weight: 900;
-    font-size: 110px;
-    width: 9cm;
-    margin: auto;
-    
-    
-}
-.tagline{
-    font-family: 'Gorditas', cursive;
-    color: #eaf3d5;
-    display:block;
-    margin:auto;
-    text-align: center;
-    font-size: 31px;
-}
+</style>
+
+<body>
+    <link rel="stylesheet" href="SAGAR.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gorditas&family=Lobster&display=swap" rel="stylesheet">
+    <!-- navigation pane -->
+    <nav class="nav">
+        <a href="products.html" class="tags" >PRODUCTS</a><span class="symbol">|</span>
+        <a href="#" class="tags" >SERVICES</a><span class="symbol">|</span>
+        <a href="#" class="tags" >REVIEW</a><span class="symbol">|</span>
+        <a href="contact.html" class="tags" >CONTACT US</a><span class="symbol">|</span>
+        <button class="btn">Download SAGAR</button>
+    </nav>
+    <h1 class="title"> <span>SAGAR</span><sup>&reg;</sup> </h1>
+    <span class='tagline'>sets moon on your styling</span>
+
+    <div class="get-started">
+        <button class="btn-ani" ><a href="products.html"> Get Started</a></button>
+    </div>
+</body>
+
+</html>
